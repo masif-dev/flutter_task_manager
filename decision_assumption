@@ -1,0 +1,12 @@
+Decision:
+
+Use Clean Architecture to structure the Flutter Task Manager application.
+Use the BLoC pattern for state management.
+Use sqflite to store tasks record locally.
+
+Assumptions:
+Users can create and fetch tasks with a title, description.
+Users can delete tasks they no longer need.
+The application will persist tasks locally using SQLite.
+The application will use Flutter Bloc for managing the state of tasks and their interactions.
+The application will have a clean and intuitive user interface.
